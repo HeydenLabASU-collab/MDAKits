@@ -24,7 +24,6 @@ documentation_type: API + README
 
 src_install:
   - mamba install gsl
-  - export CMAKE_ARGS="-DCMAKE_PREFIX_PATH=$CONDA_PREFIX -DGSL_ROOT_DIR=$CONDA_PREFIX"
   - pip install git+https://github.com/HeydenLabASU-collab/trvdos@main
 
 import_name: trvdos
