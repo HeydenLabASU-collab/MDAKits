@@ -42,4 +42,4 @@ project_org: HeydenLabASU-collab
 install:
   - pip install trvdos
 
-changelog: https://github.com/MYNAME/MYPROJECT/blob/main/CHANGELOG.md
+changelog: https://github.com/HeydenLabASU-collab/trvdos/blob/main/CHANGELOG.md
