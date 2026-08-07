@@ -23,6 +23,7 @@ documentation_home: https://trvdos.readthedocs.io/en/latest/
 documentation_type: API + README
 
 src_install:
+  - mamba install gsl
   - pip install git+https://github.com/HeydenLabASU-collab/trvdos@main
 
 import_name: trvdos
